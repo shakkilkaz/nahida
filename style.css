@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.herro{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(21, 20, 20, 0.75),rgba(28, 27, 27, 0.75)),url(./poor.png);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+.detels{
+    color: aliceblue;
+    margin-top: 15%;
+    margin-left: 8%;
+ }
+ span{
+    color: orange;
+    font-size: 40px;
+ }
+ .detels h1{
+     font-size: 70px;
+     font-weight: bold;
+ }
+ .detels p{
+     margin: 20px auto;
+     font-weight: 200;
+     line-height: 25px;
+ }
+ .detels a{
+ text-decoration: none;
+ color: aliceblue;
+ padding: 10px 25px;
+ background: transparent;
+ border: 1px solid aliceblue;
+ outline: none;
+ border-radius: 20px;
+ cursor: pointer;
+ }
+ .detels a:hover{
+   background-color: red;
+ }
+ 
+/* about */
+
+.about{
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.text h2{
+    color: rgb(241, 19, 19);
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.text h5{
+    margin: 20px auto;
+    color: #000;
+    font-size: 20px;
+    line-height: 20px;
+}
+button{
+    background: red;
+    color: #000;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    margin: 20px auto;
+    transition: .4s;
+
+}
+button:hover{
+background: transparent;
+border: 2px solid red;
+cursor: pointer;
+}
+
+/* services */
+
+.title{
+    color: #000;
+    font-size: 30px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #e22a2a;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 20px 0px;
+    color: greenyellow;
+}
+ h5{
+     color: #000;
+     font-size: 25px;
+     margin-bottom: 15px;
+ }
+ .pra p{
+     color: rgb(4, 4, 32);
+     font-size: 16px;
+     line-height: 27px;
+     margin-bottom: 25px;
+ }
+.card button{
+    background: red;
+    color: #000;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    margin: 20px auto;
+    transition: .4s;
+ }
+ .card button:hover{
+    background: transparent;
+    border: 2px solid rgb(77, 26, 173);
+    cursor: pointer; 
+ }
+
+
+/* facilitis */
+
+.facilitis{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+
+} 
+.facilitis img{
+    width: 100%;
+}
+.row{
+
+    margin-top: 5%;
+    justify-content: space-between;
+    display: flex;
+}
+
+.facilitis-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+   margin-bottom: 5%;
+   text-align: center;
+}
+.facilitis-col h3{
+   font-size: 26px;
+   color: rgb(8, 130, 237);
+}
+.facilitis-col img{
+    width: 100%;
+}
+.facilitis-col p{
+    color: rgb(104, 119, 133);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.facilitis-col{
+    flex-basis: 31%;
+    background: #fff3f3;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 20px 12px;
+    transition: 1s;
+}
+
+.facilitis-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.75);
+
+    
+}
+
+
+
+/* footer */
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.footer{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.icons .fa{
+    color: red;
+    margin:  0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+.fa-heart-o{
+    color: red;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
